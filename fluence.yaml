@@ -13,3 +13,8 @@ dependencies:
   cargo:
     marine: 0.12.5
     mrepl: 0.18.8
+services:
+  hello_world:
+    get: services
+    deploy:
+      - deployId: default
